@@ -2,6 +2,11 @@
 
 ## Setup Instructions for Bookstore Library Admin
 
+### Book Management Features
+- Import/Export CSV of Books Lists
+- Searching, Sorting, Pagination, Filtering of Books
+- Add, Edit, Update, Delete and View of Books (CRUD)
+
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -90,9 +95,12 @@ This project is open-sourced software licensed under the [MIT license](https://o
 
 This command will populate your database with test records defined in your seeders.
 
-### Importing Test CSV Data
+### Importing/Exporting CSV Data
 
 1. **Import the CSV File:**
-    - Ensure the `BookstoreLibraryAdmin - CSV Export.csv` file is located in the root of the application.
-    
-This command will import the test data from the CSV file into your database.
+    - Ensure the `Bookstore Library Admin CSV Import.csv` file is located in the root of the application.
+    - Upload it in the system for testing of Import Book Data.
+
+2. **Export the CSV File:**
+    - Use the export functionality to download the list of books in CSV format.
+
